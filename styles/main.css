@@ -89,3 +89,28 @@
     row-gap: 30px;
     column-gap: 20px;
 }
+
+/* plants lover section */
+.plants-lover {
+    max-width: 1440px;
+    max-height: 597px;
+    margin: 210px auto;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+.pl-images{
+    margin-top: 0;
+}
+.trusted-badge {
+    height: 286px;
+    width: 286px;
+    margin: -150px -150px;
+    position: absolute;
+}
+.pl-des-heading{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.fnl-des {
+    font-size: 1.2rem;
+}
