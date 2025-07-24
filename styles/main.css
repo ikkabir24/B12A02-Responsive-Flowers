@@ -11,8 +11,12 @@
     .font-primary{
         font-family: serif;
     }
-/* header styles */
-
+    .orange-main {
+        color: rgba(233, 90, 8, 1);
+    }
+    .mw1440 {
+        max-width: 1440px;
+    }
 /* navbar related styles */
 .navbar {
     justify-content: space-between;
@@ -30,4 +34,14 @@
 .banner, .navbar {
     max-width: 1440px;
     margin: 0 auto;
+}
+/* banner styles */
+.banner {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 6rem;
+}
+.banner-texts {
+    font-weight: bold;
+    font-size: 3rem;
 }
