@@ -1,0 +1,33 @@
+/* shared style */
+    .flex {
+        display: flex;
+    }
+    .almost-black{
+        color: rgba(37, 36, 50, 1);
+    }
+    .light-gray {
+        color: rgba(137, 135, 161, 1);
+    }
+    .font-primary{
+        font-family: serif;
+    }
+/* header styles */
+
+/* navbar related styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 3rem;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: ;
+}
+.banner, .navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+}
