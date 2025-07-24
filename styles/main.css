@@ -114,3 +114,64 @@
 .fnl-des {
     font-size: 1.2rem;
 }
+
+/* latest deals styles */
+.latest-deals {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.ld-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 25px;
+    column-gap: 28px;
+}
+.ld-title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.ld-des {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* latest deals grid */
+
+.item {
+    min-width: 366px;
+    min-height: 206px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bloom{
+    background-image: url(/assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zabo{
+    background-image: url(/assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.ana{
+    background-image: url(/assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bloom-title, 
+.bloom-link {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.deals-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
